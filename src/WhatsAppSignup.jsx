@@ -16,7 +16,7 @@ const WhatsAppSignup = () => {
 
         window.fbAsyncInit = function () {
             window.FB.init({
-                appId: "",
+                appId: "1353462970255772",
                 cookie: true,
                 xfbml: false,
                 version: "v25.0",
@@ -69,7 +69,7 @@ const WhatsAppSignup = () => {
 
 
         window.FB.login(fbLoginCallback, {
-            config_id: "",
+            config_id: "28621782227440585",
             response_type: "code",
             override_default_response_type: true,
             extras: { version: "v4" },
