@@ -6,7 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     allowedHosts: [
-      'ff08-45-118-106-170.ngrok-free.app'
+      'ff08-45-118-106-170.ngrok-free.app',
+      'whatsapp-webhook-live-1.onrender.com'
     ]
   }
 })
